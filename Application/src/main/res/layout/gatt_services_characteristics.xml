@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:id="@+id/layout_joystick_r"
+        android:layout_width="226dp"
+        android:layout_height="226dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/image_button_bg" />
+
+    <RelativeLayout
+        android:id="@+id/layout_joystick_l"
+        android:layout_width="226dp"
+        android:layout_height="226dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/image_button_bg"
+        android:rotation="0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/timeHolding"
+        android:layout_marginEnd="83dp"
+        android:text="Status:" />
+
+    <TextView
+        android:id="@+id/stateShoot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView"
+        android:text="@string/no_action" />
+
+    <TextView
+        android:id="@+id/timeHolding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/timeHolding" />
+</RelativeLayout>

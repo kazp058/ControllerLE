@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sat Oct 27 13:53:28 COT 2018
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\33
+0.path=classes.dex
+0.set=DEX
+count=1
