@@ -5,35 +5,40 @@
     build-mode="COLD"
     density="xxxhdpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
-    plugin-version="3.1.4"
-    timestamp="1540697742398"
+    plugin-version="3.2.1"
+    timestamp="1540746763065"
     token="-5601863935603408541"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="938" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="54" />
+        duration="0" />
     <task
         name="verifier"
-        duration="32" />
+        duration="0" />
 
     <artifact
-        location="C:\Users\kazp_\Desktop\ControllerLE\Application\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
+        location="C:\Users\kazp_\Desktop\ControllerLE\Application\build\intermediates\instant-run-apk\debug\Application-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1540697278446"
+        timestamp="1540745699444"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\kazp_\Desktop\ControllerLE\Application\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\kazp_\Desktop\ControllerLE\Application\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\kazp_\Desktop\ControllerLE\Application\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\kazp_\Desktop\ControllerLE\Application\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -42,13 +47,10 @@
             location="C:\Users\kazp_\Desktop\ControllerLE\Application\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\kazp_\Desktop\ControllerLE\Application\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="C:\Users\kazp_\Desktop\ControllerLE\Application\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\kazp_\Desktop\ControllerLE\Application\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\kazp_\Desktop\ControllerLE\Application\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\kazp_\Desktop\ControllerLE\Application\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -57,13 +59,10 @@
             location="C:\Users\kazp_\Desktop\ControllerLE\Application\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\kazp_\Desktop\ControllerLE\Application\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\kazp_\Desktop\ControllerLE\Application\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\kazp_\Desktop\ControllerLE\Application\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="C:\Users\kazp_\Desktop\ControllerLE\Application\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\kazp_\Desktop\ControllerLE\Application\build\intermediates\instant-run-apk\debug\Application-debug.apk"
@@ -72,11 +71,19 @@
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1540697742398"
+        timestamp="1540746659023"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\kazp_\Desktop\ControllerLE\Application\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="C:\Users\kazp_\Desktop\ControllerLE\Application\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1540746763065"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\kazp_\Desktop\ControllerLE\Application\build\intermediates\instant-run-apk\debug\Application-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

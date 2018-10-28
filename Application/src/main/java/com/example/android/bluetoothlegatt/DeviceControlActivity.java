@@ -57,6 +57,7 @@ public class DeviceControlActivity extends Activity {
 
     private TextView actionString;
     private TextView timeHolding;
+    private TextView Inner_text;
 
     private boolean shooted;
     private boolean retry;
@@ -163,6 +164,8 @@ public class DeviceControlActivity extends Activity {
 
         actionString = (TextView) findViewById(R.id.stateShoot);
         timeHolding = (TextView) findViewById(R.id.timeHolding);
+        Inner_text = (TextView) findViewById(R.id.Inner_max_time);
+        Inner_text.setText(""+(INNER_MAX_TIME/1000)+"seconds");
         timeHolding.setText("0");
 
         //Joystick configuration
@@ -282,9 +285,13 @@ public class DeviceControlActivity extends Activity {
                 return true;
             case R.id.menu_jaiba:
                 mType = "Jaiba";
+                INNER_MAX_TIME = 4000;
+                Inner_text.setText(""+(INNER_MAX_TIME/1000)+"seconds");
                 return true;
             case R.id.menu_joystick:
                 mType = "Joystick";
+                INNER_MAX_TIME = 6000;
+                Inner_text.setText(""+(INNER_MAX_TIME/1000)+"seconds");
                 return true;
         }
 

@@ -4,17 +4,7 @@
             "outputFile": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\41aaa8adc5341f4addb5051af88a63ba\\res\\values-v24\\values-v24.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,212",
-                        "endColumns": "156,134",
-                        "endOffsets": "207,342"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\7e9c25a8447840aa7a88249e52440d16\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\f4f677faae2380ec23b26b2a32a7fbfc\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -28,6 +18,16 @@
                         "startOffsets": "347,413,474,540",
                         "endColumns": "65,60,65,66",
                         "endOffsets": "408,469,535,602"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\146b5025c50e3766b0cb24a80d9e4679\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
                     }
                 }
             ]

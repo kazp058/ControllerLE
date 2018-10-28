@@ -3,20 +3,20 @@ manifest
 ADDED from C:\Users\kazp_\Desktop\ControllerLE\Application\src\main\AndroidManifest.xml:16:1-62:12
 INJECTED from C:\Users\kazp_\Desktop\ControllerLE\Application\src\main\AndroidManifest.xml:16:1-62:12
 INJECTED from C:\Users\kazp_\Desktop\ControllerLE\Application\src\main\AndroidManifest.xml:16:1-62:12
-MERGED from [com.android.support:support-v13:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\fe011c1fbd684c1273afc63915f8fce3\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\3ccb48774682365eb8315087d895c619\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\7740a6dbe11ce910984551b82219f37e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\41aaa8adc5341f4addb5051af88a63ba\AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.erz05:JoyStick:1.1.0] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\JoyStick-1.1.0.aar\00a0aa712c5608b882242283c7941131\AndroidManifest.xml:2:1-17:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\16fbb912b7124e3ea3c3356ab7a90b80\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\7e9c25a8447840aa7a88249e52440d16\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\fa0848e3e27cbb606c24ddb35ef63f53\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\66f2cf54f46c002380e4f29361985fb8\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\bb4508d08e5e2c49a7ef9318f943d819\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\e4649cb72b37c28d751ee95e60da9118\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\c2cdf51b7094a7fea28b93b02eebe107\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\f67899d5b2a18e00d1a8cfebc4bd4c1d\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\52c09fb8f3c1d38f91a31923b73b4382\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\7965380892ec7a1f47c63a2f88fe4757\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\0d03817570f31c69599355dd962f604b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\fd25d33ab3b7b52acbc9a32adff9c871\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\146b5025c50e3766b0cb24a80d9e4679\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.erz05:JoyStick:1.1.0] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\JoyStick-1.1.0.aar\eee334c452096191b94d3976c6688c61\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ab524cf5d17716e2c2618bae952d8414\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\f4f677faae2380ec23b26b2a32a7fbfc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\7884643f47d42bac7268190d3d318ae3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\df7fc3137389c5183ded80212fc6b23e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\758eb0bab5c1ff012ae704b921ae61ff\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\f9d15aa0bbe3e6b0fa9e9fc3e448799f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\6f449deece24cf6389898c5bab83f791\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\26817964ef54c5217cb12754e2976ec1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\7d710304728a42c757f8e2daeeb2c370\AndroidManifest.xml:17:1-24:12
 INJECTED from C:\Users\kazp_\Desktop\ControllerLE\Application\src\main\AndroidManifest.xml:16:1-62:12
 INJECTED from C:\Users\kazp_\Desktop\ControllerLE\Application\src\main\AndroidManifest.xml:16:1-62:12
 	package
@@ -55,16 +55,16 @@ ADDED from C:\Users\kazp_\Desktop\ControllerLE\Application\src\main\AndroidManif
 		ADDED from C:\Users\kazp_\Desktop\ControllerLE\Application\src\main\AndroidManifest.xml:37:22-76
 application
 ADDED from C:\Users\kazp_\Desktop\ControllerLE\Application\src\main\AndroidManifest.xml:39:5-60:19
-MERGED from [com.github.erz05:JoyStick:1.1.0] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\JoyStick-1.1.0.aar\00a0aa712c5608b882242283c7941131\AndroidManifest.xml:11:5-15:19
-MERGED from [com.github.erz05:JoyStick:1.1.0] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\JoyStick-1.1.0.aar\00a0aa712c5608b882242283c7941131\AndroidManifest.xml:11:5-15:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\16fbb912b7124e3ea3c3356ab7a90b80\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\16fbb912b7124e3ea3c3356ab7a90b80\AndroidManifest.xml:9:5-20
+MERGED from [com.github.erz05:JoyStick:1.1.0] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\JoyStick-1.1.0.aar\eee334c452096191b94d3976c6688c61\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.erz05:JoyStick:1.1.0] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\JoyStick-1.1.0.aar\eee334c452096191b94d3976c6688c61\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ab524cf5d17716e2c2618bae952d8414\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ab524cf5d17716e2c2618bae952d8414\AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from [com.github.erz05:JoyStick:1.1.0] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\JoyStick-1.1.0.aar\00a0aa712c5608b882242283c7941131\AndroidManifest.xml:14:9-35
+		ADDED from [com.github.erz05:JoyStick:1.1.0] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\JoyStick-1.1.0.aar\eee334c452096191b94d3976c6688c61\AndroidManifest.xml:14:9-35
 	android:label
 		ADDED from C:\Users\kazp_\Desktop\ControllerLE\Application\src\main\AndroidManifest.xml:41:9-41
 	android:allowBackup
-		ADDED from [com.github.erz05:JoyStick:1.1.0] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\JoyStick-1.1.0.aar\00a0aa712c5608b882242283c7941131\AndroidManifest.xml:12:9-35
+		ADDED from [com.github.erz05:JoyStick:1.1.0] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\JoyStick-1.1.0.aar\eee334c452096191b94d3976c6688c61\AndroidManifest.xml:12:9-35
 	android:icon
 		ADDED from C:\Users\kazp_\Desktop\ControllerLE\Application\src\main\AndroidManifest.xml:40:9-45
 	android:theme
@@ -105,34 +105,34 @@ uses-sdk
 INJECTED from C:\Users\kazp_\Desktop\ControllerLE\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\kazp_\Desktop\ControllerLE\Application\src\main\AndroidManifest.xml
 INJECTED from C:\Users\kazp_\Desktop\ControllerLE\Application\src\main\AndroidManifest.xml
-MERGED from [com.android.support:support-v13:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\fe011c1fbd684c1273afc63915f8fce3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v13:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\fe011c1fbd684c1273afc63915f8fce3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\3ccb48774682365eb8315087d895c619\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\3ccb48774682365eb8315087d895c619\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\7740a6dbe11ce910984551b82219f37e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\7740a6dbe11ce910984551b82219f37e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\41aaa8adc5341f4addb5051af88a63ba\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\41aaa8adc5341f4addb5051af88a63ba\AndroidManifest.xml:20:5-44
-MERGED from [com.github.erz05:JoyStick:1.1.0] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\JoyStick-1.1.0.aar\00a0aa712c5608b882242283c7941131\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.erz05:JoyStick:1.1.0] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\JoyStick-1.1.0.aar\00a0aa712c5608b882242283c7941131\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\16fbb912b7124e3ea3c3356ab7a90b80\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\16fbb912b7124e3ea3c3356ab7a90b80\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\7e9c25a8447840aa7a88249e52440d16\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\7e9c25a8447840aa7a88249e52440d16\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\fa0848e3e27cbb606c24ddb35ef63f53\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\fa0848e3e27cbb606c24ddb35ef63f53\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\66f2cf54f46c002380e4f29361985fb8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\66f2cf54f46c002380e4f29361985fb8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\bb4508d08e5e2c49a7ef9318f943d819\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\bb4508d08e5e2c49a7ef9318f943d819\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\e4649cb72b37c28d751ee95e60da9118\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\e4649cb72b37c28d751ee95e60da9118\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\c2cdf51b7094a7fea28b93b02eebe107\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\c2cdf51b7094a7fea28b93b02eebe107\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\f67899d5b2a18e00d1a8cfebc4bd4c1d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\f67899d5b2a18e00d1a8cfebc4bd4c1d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\52c09fb8f3c1d38f91a31923b73b4382\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\52c09fb8f3c1d38f91a31923b73b4382\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\7965380892ec7a1f47c63a2f88fe4757\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\7965380892ec7a1f47c63a2f88fe4757\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\0d03817570f31c69599355dd962f604b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\0d03817570f31c69599355dd962f604b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\fd25d33ab3b7b52acbc9a32adff9c871\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\fd25d33ab3b7b52acbc9a32adff9c871\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\146b5025c50e3766b0cb24a80d9e4679\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\146b5025c50e3766b0cb24a80d9e4679\AndroidManifest.xml:20:5-44
+MERGED from [com.github.erz05:JoyStick:1.1.0] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\JoyStick-1.1.0.aar\eee334c452096191b94d3976c6688c61\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.erz05:JoyStick:1.1.0] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\JoyStick-1.1.0.aar\eee334c452096191b94d3976c6688c61\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ab524cf5d17716e2c2618bae952d8414\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ab524cf5d17716e2c2618bae952d8414\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\f4f677faae2380ec23b26b2a32a7fbfc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\f4f677faae2380ec23b26b2a32a7fbfc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\7884643f47d42bac7268190d3d318ae3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\7884643f47d42bac7268190d3d318ae3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\df7fc3137389c5183ded80212fc6b23e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\df7fc3137389c5183ded80212fc6b23e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\758eb0bab5c1ff012ae704b921ae61ff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\758eb0bab5c1ff012ae704b921ae61ff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\f9d15aa0bbe3e6b0fa9e9fc3e448799f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\f9d15aa0bbe3e6b0fa9e9fc3e448799f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\6f449deece24cf6389898c5bab83f791\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\6f449deece24cf6389898c5bab83f791\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\26817964ef54c5217cb12754e2976ec1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\26817964ef54c5217cb12754e2976ec1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\7d710304728a42c757f8e2daeeb2c370\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\kazp_\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\7d710304728a42c757f8e2daeeb2c370\AndroidManifest.xml:20:5-22:41
 INJECTED from C:\Users\kazp_\Desktop\ControllerLE\Application\src\main\AndroidManifest.xml
 INJECTED from C:\Users\kazp_\Desktop\ControllerLE\Application\src\main\AndroidManifest.xml
 	android:targetSdkVersion
