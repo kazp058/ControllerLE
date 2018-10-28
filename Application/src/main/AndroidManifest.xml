@@ -50,8 +50,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".DeviceControlActivity"
-                  android:screenOrientation="reverseLandscape"/>
-
+                  android:screenOrientation="reverseLandscape"
+                 android:theme="@android:style/Theme.Holo.Light"
+                  android:configChanges="keyboardHidden|orientation|screenSize"/>
         <service
             android:name=".BluetoothLeService"
             android:enabled="true" />

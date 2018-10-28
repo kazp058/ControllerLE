@@ -27,25 +27,13 @@ import android.widget.SimpleExpandableListAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.erz.joysticklibrary.JoyStick;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
 public class DeviceControlActivity extends Activity {
-
-    RelativeLayout layout_joystick_l;
-    RelativeLayout layout_joystick_r;
-    ImageView image_joystick, image_border;
-
-    Joystick_def js_l;
-    Joystick_def js_r;
-
-    private int position_lx;
-    private int position_ly;
-
-    private int position_ry;
-    private int position_rx;
-
     private String fire = "-1";
 
     public String mType = "Joystick";
@@ -76,6 +64,12 @@ public class DeviceControlActivity extends Activity {
     private String superString = "0;0;0";
 
     final Handler handler1 = new Handler();
+
+    private TextView ltxt, rtxt, rrtxt, rltxt;
+    private double rr = 1.0d, rl = 1.0d;
+    private int desviationl = 100, desviationr = 100;
+    private JoyStick ljoyStick, rjoyStick;
+    private double r = 0, l = 0;
 
     private final ServiceConnection mServiceConnection = new ServiceConnection() {
 
@@ -167,49 +161,68 @@ public class DeviceControlActivity extends Activity {
         AudioManager volumeConfig = (AudioManager) getSystemService(AUDIO_SERVICE);
         volumeConfig.setStreamVolume(AudioManager.STREAM_MUSIC, 6, 0);
 
-        layout_joystick_l = (RelativeLayout) findViewById(R.id.layout_joystick_l);
-        layout_joystick_r = (RelativeLayout) findViewById(R.id.layout_joystick_r);
-
         actionString = (TextView) findViewById(R.id.stateShoot);
         timeHolding = (TextView) findViewById(R.id.timeHolding);
         timeHolding.setText("0");
 
-        js_l = new js.JoyStickClass(getApplicationContext(), layout_joystick_l, R.drawable.image_button);
-        js_l.setStickSize(250, 250);
-        js_l.setLayoutSize(750, 750);
-        js_l.setLayoutAlpha(150);
-        js_l.setStickAlpha(100);
-        js_l.setOffset(90);
-        js_l.setMinimumDistance(50);
+        rjoyStick = (JoyStick) findViewById(R.id.right);
+        assert rjoyStick != null;
+        rjoyStick.setType(JoyStick.TYPE_2_AXIS_UP_DOWN);
+        rjoyStick.enableStayPut(false);
+        //Set JoyStickListener
+        rjoyStick.setListener(new JoyStick.JoyStickListener() {
 
-        js_r = new js.JoyStickClass(getApplicationContext(), layout_joystick_r, R.drawable.image_button);
-        js_r.setStickSize(250, 250);
-        js_r.setLayoutSize(750, 750);
-        js_r.setLayoutAlpha(150);
-        js_r.setStickAlpha(100);
-        js_r.setOffset(90);
-        js_r.setMinimumDistance(50);
+            @Override
+            public void onMove(JoyStick joyStick, double v, double v1, int i) {
+                Log.i("right", "," + v + "," + v1 + "," + i);
+                double zxasd = Math.abs(v1);
+                l = (Math.pow((zxasd - 48) * 0.1, 3) + 111) * Math.signum(v);
+
+                sendMove();
+//                rtxt.setText(String.valueOf(l));
+            }
+
+            @Override
+            public void onTap() {
+
+            }
+
+            @Override
+            public void onDoubleTap() {
+
+            }
+        });
+
+        ljoyStick = (JoyStick) findViewById(R.id.left);
+        assert ljoyStick != null;
+        ljoyStick.setHapticFeedbackEnabled(true);
+        ljoyStick.setType(JoyStick.TYPE_2_AXIS_UP_DOWN);
+        ljoyStick.enableStayPut(false);
+
+        ljoyStick.setListener(new JoyStick.JoyStickListener() {
+
+            @Override
+            public void onMove(JoyStick joyStick, double v, double v1, int i) {
+                Log.i("left", "," + v + "," + v1 + "," + i);
+                double zxasd = Math.abs(v1);
+                r = (Math.pow((zxasd - 48) * 0.1, 3) + 111) * Math.signum(v);
+
+                sendMove();
+                // ltxt.setText(String.valueOf(r));
+                // \left(\left(x-48\right)\cdot0.1\right)^3+111
+            }
+
+            @Override
+            public void onTap() {
+            }
+
+            @Override
+            public void onDoubleTap() {
+            }
+        });
+
 
         final int delay = 25;
-
-        layout_joystick_l.setOnTouchListener(new View.OnTouchListener() {
-            public boolean onTouch(View arg0, MotionEvent arg1) {
-                js_l.drawStick(arg1);
-                position_lx = js_l.getX();
-                position_ly = js_l.getY();
-                sendMove();
-                return true;
-            }
-        });
-        layout_joystick_r.setOnTouchListener(new View.OnTouchListener() {
-            public boolean onTouch(View arg0, MotionEvent arg1) {
-                js_r.drawStick(arg1);
-                position_rx = js_r.getX();
-                position_ry = js_r.getY();
-                sendMove();
-                return true;
-            }
-        });
 
         transmit();
     }
@@ -266,16 +279,10 @@ public class DeviceControlActivity extends Activity {
                 onBackPressed();
                 return true;
             case R.id.menu_jaiba:
-                layout_joystick_r.setVisibility(View.INVISIBLE);
-                layout_joystick_r.setClickable(false);
                 mType = "Jaiba";
-                position_rx = 0;
-                position_ry = 0;
                 return true;
             case R.id.menu_joystick:
                 mType = "Joystick";
-                layout_joystick_r.setVisibility(View.VISIBLE);
-                layout_joystick_r.setClickable(true);
                 return true;
         }
 
@@ -377,6 +384,7 @@ public class DeviceControlActivity extends Activity {
             return true;
         } else if ((keyCode == KeyEvent.KEYCODE_VOLUME_DOWN)) {
             shooted = false;
+            fire = "-1";
             retry = true;
             maxHolder();
             return true;
@@ -426,7 +434,11 @@ public class DeviceControlActivity extends Activity {
     }
 
     private void sendMove() {
-        superString = "\n" + position_ly + ";" + position_ry + ";" + fire;
+
+        int ll = (int) (l * 2.55 * ((double) desviationl / 100));
+        int rr = (int) (r * 2.55 * ((double) desviationr / 100));
+
+        superString = ll + ";" + rr + ";" + fire +"\n";
         Log.d("BtConnet", superString);
     }
 
@@ -439,7 +451,7 @@ public class DeviceControlActivity extends Activity {
             @Override
             public void run() {
 
-                Log.d("BtSending", "run: Sending..");
+                //Log.d("BtSending", "run: Sending..");
 
 
                 mBluetoothLeService.writeCharacteristic(superString,bluetoothGattCharacteristicHM_10);

@@ -1,4 +1,4 @@
-#Fri Oct 26 22:55:32 COT 2018
-base.0=C\:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\21
+#Sat Oct 27 22:28:27 COT 2018
+base.0=C\:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\38
 path.0=classes.dex
 renamed.0=classes.dex

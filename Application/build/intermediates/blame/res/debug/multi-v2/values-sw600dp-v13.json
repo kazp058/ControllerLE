@@ -8,35 +8,35 @@
                     "from": {
                         "startLines": "18",
                         "startColumns": "4",
-                        "startOffsets": "621",
+                        "startOffsets": "639",
                         "endLines": "22",
                         "endColumns": "12",
-                        "endOffsets": "861"
+                        "endOffsets": "883"
                     },
                     "to": {
-                        "startLines": "12",
+                        "startLines": "13",
                         "startColumns": "4",
-                        "startOffsets": "747",
-                        "endLines": "16",
+                        "startOffsets": "805",
+                        "endLines": "17",
                         "endColumns": "12",
-                        "endOffsets": "987"
+                        "endOffsets": "1045"
                     }
                 },
                 {
                     "source": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\src\\main\\res\\values-sw600dp\\template-dimens.xml",
                     "from": {
-                        "startLines": "20,21",
-                        "startColumns": "4,4",
-                        "startOffsets": "656,724",
-                        "endColumns": "67,67",
-                        "endOffsets": "719,787"
+                        "startLines": "23,20,21",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "793,656,724",
+                        "endColumns": "57,67,67",
+                        "endOffsets": "846,719,787"
                     },
                     "to": {
-                        "startLines": "10,11",
-                        "startColumns": "4,4",
-                        "startOffsets": "611,679",
-                        "endColumns": "67,67",
-                        "endOffsets": "674,742"
+                        "startLines": "10,11,12",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "611,669,737",
+                        "endColumns": "57,67,67",
+                        "endOffsets": "664,732,800"
                     }
                 },
                 {

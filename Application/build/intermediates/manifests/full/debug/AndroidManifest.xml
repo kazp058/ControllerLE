@@ -42,9 +42,12 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
+        android:allowBackup="true"
         android:debuggable="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@android:style/Theme.Holo.Light" >
         <activity
             android:name="com.example.android.bluetoothlegatt.DeviceScanActivity"
@@ -57,7 +60,9 @@
         </activity>
         <activity
             android:name="com.example.android.bluetoothlegatt.DeviceControlActivity"
-            android:screenOrientation="reverseLandscape" />
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="reverseLandscape"
+            android:theme="@android:style/Theme.Holo.Light" />
 
         <service
             android:name="com.example.android.bluetoothlegatt.BluetoothLeService"
