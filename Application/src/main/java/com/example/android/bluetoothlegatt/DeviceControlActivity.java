@@ -96,6 +96,7 @@ public class DeviceControlActivity extends Activity {
         public void onReceive(Context context, Intent intent) {
             final String action = intent.getAction();
             if (BluetoothLeService.ACTION_GATT_CONNECTED.equals(action)) {
+                transmit();
                 mConnected = true;
                 invalidateOptionsMenu();
 
@@ -228,8 +229,6 @@ public class DeviceControlActivity extends Activity {
 
 
         final int delay = 25;
-
-        transmit();
     }
 
     @Override
