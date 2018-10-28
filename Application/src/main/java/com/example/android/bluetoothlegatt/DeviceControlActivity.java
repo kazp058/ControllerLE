@@ -367,19 +367,32 @@ public class DeviceControlActivity extends Activity {
 
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
-
-        if ((keyCode == KeyEvent.KEYCODE_VOLUME_UP)) {
-            event.startTracking();
-            actionString.setText(R.string.shooting);
-            fire = "1";
-            sendMove();
-            return true;
-        } else if ((keyCode == KeyEvent.KEYCODE_VOLUME_DOWN)) {
-            event.startTracking();
-            actionString.setText(R.string.recovery);
-            fire = "0";
-            sendMove();
-            return true;
+        if (mType.equals("Joystick")){
+            if ((keyCode == KeyEvent.KEYCODE_VOLUME_UP)) {
+                event.startTracking();
+                actionString.setText(R.string.shooting);
+                fire = "1";
+                sendMove();
+                return true;
+            } else if ((keyCode == KeyEvent.KEYCODE_VOLUME_DOWN)) {
+                event.startTracking();
+                actionString.setText(R.string.recovery);
+                fire = "0";
+                sendMove();
+                return true;
+            }
+        } else if(mType.equals("Jaiba")){
+            if ((keyCode == KeyEvent.KEYCODE_VOLUME_UP)) {
+                setNormal();
+                shooted = true;
+                return true;
+            } else if ((keyCode == KeyEvent.KEYCODE_VOLUME_DOWN)) {
+                shooted = false;
+                fire = "0";
+                retry = true;
+                maxHolder();
+                return true;
+            }
         }
 
         return super.onKeyDown(keyCode, event);
@@ -387,16 +400,20 @@ public class DeviceControlActivity extends Activity {
 
     @Override
     public boolean onKeyUp(int keyCode, KeyEvent event) {
-        if ((keyCode == KeyEvent.KEYCODE_VOLUME_UP)) {
-            setNormal();
-            shooted = true;
-            return true;
-        } else if ((keyCode == KeyEvent.KEYCODE_VOLUME_DOWN)) {
-            shooted = false;
-            fire = "-1";
-            retry = true;
-            maxHolder();
-            return true;
+        if (mType.equals("Joystick")) {
+            if ((keyCode == KeyEvent.KEYCODE_VOLUME_UP)) {
+                setNormal();
+                shooted = true;
+                return true;
+            } else if ((keyCode == KeyEvent.KEYCODE_VOLUME_DOWN)) {
+                shooted = false;
+                fire = "-1";
+                retry = true;
+                maxHolder();
+                return true;
+            }
+        } else if(mType.equals("Jaiba")){
+
         }
         return super.onKeyUp(keyCode, event);
     }
