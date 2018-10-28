@@ -1,13 +1,4 @@
-#Sat Oct 27 22:28:28 COT 2018
-path.3=classes.dex
-path.2=classes.dex
-path.1=classes.dex
+#Sat Oct 27 22:48:24 COT 2018
+base.0=C\:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\50
 path.0=classes.dex
-renamed.3=classes4.dex
-renamed.2=classes3.dex
-renamed.1=classes2.dex
 renamed.0=classes.dex
-base.3=C\:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\47
-base.2=C\:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\46
-base.1=C\:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\48
-base.0=C\:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\45

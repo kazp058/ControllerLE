@@ -1,19 +1,7 @@
 #Internal package file, do not edit.
-#Sat Oct 27 22:28:28 COT 2018
-1.base=C\:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\46
-2.path=classes.dex
+#Sat Oct 27 22:48:24 COT 2018
 0.baseType=DIRECTORY
-3.baseType=DIRECTORY
-2.base=C\:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\48
-3.set=DEX
-2.set=DEX
-1.baseType=DIRECTORY
-3.path=classes.dex
-count=4
-1.set=DEX
+0.base=C\:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\50
 0.path=classes.dex
-3.base=C\:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\45
 0.set=DEX
-0.base=C\:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\47
-2.baseType=DIRECTORY
-1.path=classes.dex
+count=1

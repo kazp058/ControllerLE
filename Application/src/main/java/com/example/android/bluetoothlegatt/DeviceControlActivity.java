@@ -165,6 +165,8 @@ public class DeviceControlActivity extends Activity {
         timeHolding = (TextView) findViewById(R.id.timeHolding);
         timeHolding.setText("0");
 
+        //Joystick configuration
+
         rjoyStick = (JoyStick) findViewById(R.id.right);
         assert rjoyStick != null;
         rjoyStick.setType(JoyStick.TYPE_2_AXIS_UP_DOWN);
@@ -438,7 +440,7 @@ public class DeviceControlActivity extends Activity {
         int ll = (int) (l * 2.55 * ((double) desviationl / 100));
         int rr = (int) (r * 2.55 * ((double) desviationr / 100));
 
-        superString = ll + ";" + rr + ";" + fire +"\n";
+        superString = "on";
         Log.d("BtConnet", superString);
     }
 
@@ -456,7 +458,7 @@ public class DeviceControlActivity extends Activity {
 
                 mBluetoothLeService.writeCharacteristic(superString,bluetoothGattCharacteristicHM_10);
 
-                mHandler.postDelayed(this,10);
+                mHandler.postDelayed(this,250);
 
             }
         },1000);
