@@ -440,7 +440,7 @@ public class DeviceControlActivity extends Activity {
         int ll = (int) (l * 2.55 * ((double) desviationl / 100));
         int rr = (int) (r * 2.55 * ((double) desviationr / 100));
 
-        superString = "on";
+        superString = ll + ";" + rr + ";" + fire + "\n";
         Log.d("BtConnet", superString);
     }
 
