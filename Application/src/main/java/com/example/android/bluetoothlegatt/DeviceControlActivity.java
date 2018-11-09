@@ -70,6 +70,7 @@ public class DeviceControlActivity extends Activity {
     private double rr = 1.0d, rl = 1.0d;
     private int desviationl = 100, desviationr = 100;
     private JoyStick ljoyStick, rjoyStick;
+    private double angle;
     private double r = 0, l = 0;
 
     private final ServiceConnection mServiceConnection = new ServiceConnection() {
@@ -173,7 +174,7 @@ public class DeviceControlActivity extends Activity {
 
         rjoyStick = (JoyStick) findViewById(R.id.right);
         assert rjoyStick != null;
-        rjoyStick.setType(JoyStick.TYPE_2_AXIS_UP_DOWN);
+        rjoyStick.setType(JoyStick.TYPE_8_AXIS);
         rjoyStick.enableStayPut(false);
         //Set JoyStickListener
         rjoyStick.setListener(new JoyStick.JoyStickListener() {
@@ -183,6 +184,8 @@ public class DeviceControlActivity extends Activity {
                 Log.i("right", "," + v + "," + v1 + "," + i);
                 double zxasd = Math.abs(v1);
                 l = (Math.pow((zxasd - 48) * 0.1, 3) + 111) * Math.signum(v);
+
+                angle = v;
 
                 sendMove();
 //                rtxt.setText(String.valueOf(l));
@@ -462,8 +465,10 @@ public class DeviceControlActivity extends Activity {
 
         int ll = (int) (l * 2.55 * ((double) desviationl / 100));
         int rr = (int) (r * 2.55 * ((double) desviationr / 100));
+        
+        angle = Math.toDegrees(angle);
 
-        superString = ll + ";" + rr + ";" + fire + "\n";
+        superString = rr + ";" + angle + ";" + fire + "\n";
         Log.d("BtConnet", superString);
     }
 
