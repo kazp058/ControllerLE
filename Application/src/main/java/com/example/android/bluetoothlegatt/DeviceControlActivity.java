@@ -173,7 +173,7 @@ public class DeviceControlActivity extends Activity {
 
         rjoyStick = (JoyStick) findViewById(R.id.right);
         assert rjoyStick != null;
-        rjoyStick.setType(JoyStick.TYPE_8_AXIS);
+        rjoyStick.setType(JoyStick.TYPE_2_AXIS_UP_DOWN);
         rjoyStick.enableStayPut(false);
         //Set JoyStickListener
         rjoyStick.setListener(new JoyStick.JoyStickListener() {
