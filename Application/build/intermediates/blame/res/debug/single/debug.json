@@ -136,20 +136,20 @@
         "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\146b5025c50e3766b0cb24a80d9e4679\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\146b5025c50e3766b0cb24a80d9e4679\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\146b5025c50e3766b0cb24a80d9e4679\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\26817964ef54c5217cb12754e2976ec1\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+        "merged": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\146b5025c50e3766b0cb24a80d9e4679\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\146b5025c50e3766b0cb24a80d9e4679\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\26817964ef54c5217cb12754e2976ec1\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
@@ -160,12 +160,12 @@
         "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\146b5025c50e3766b0cb24a80d9e4679\\res\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\146b5025c50e3766b0cb24a80d9e4679\\res\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\146b5025c50e3766b0cb24a80d9e4679\\res\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\146b5025c50e3766b0cb24a80d9e4679\\res\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",
@@ -180,12 +180,12 @@
         "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\146b5025c50e3766b0cb24a80d9e4679\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_light.xml.flat",
-        "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\146b5025c50e3766b0cb24a80d9e4679\\res\\color\\abc_primary_text_disable_only_material_light.xml"
-    },
-    {
         "merged": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\146b5025c50e3766b0cb24a80d9e4679\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_light.xml.flat",
+        "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\146b5025c50e3766b0cb24a80d9e4679\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
         "merged": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_borderless_material.xml.flat",
@@ -316,12 +316,12 @@
         "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\146b5025c50e3766b0cb24a80d9e4679\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_default.xml.flat",
-        "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\146b5025c50e3766b0cb24a80d9e4679\\res\\color\\abc_tint_default.xml"
-    },
-    {
         "merged": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_dark.xml.flat",
         "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\146b5025c50e3766b0cb24a80d9e4679\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_default.xml.flat",
+        "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\146b5025c50e3766b0cb24a80d9e4679\\res\\color\\abc_tint_default.xml"
     },
     {
         "merged": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -524,12 +524,12 @@
         "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\146b5025c50e3766b0cb24a80d9e4679\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
-        "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\146b5025c50e3766b0cb24a80d9e4679\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
         "merged": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\146b5025c50e3766b0cb24a80d9e4679\\res\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\146b5025c50e3766b0cb24a80d9e4679\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
@@ -668,12 +668,12 @@
         "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\146b5025c50e3766b0cb24a80d9e4679\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\146b5025c50e3766b0cb24a80d9e4679\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\146b5025c50e3766b0cb24a80d9e4679\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\146b5025c50e3766b0cb24a80d9e4679\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\res\\merged\\debug\\layout_support_simple_spinner_dropdown_item.xml.flat",

@@ -62,7 +62,7 @@ public class DeviceControlActivity extends Activity {
     private boolean shooted;
     private boolean retry;
 
-    private String superString = "0;0;0";
+    private String superString = "0;0;-1";
 
     final Handler handler1 = new Handler();
 
@@ -70,7 +70,6 @@ public class DeviceControlActivity extends Activity {
     private double rr = 1.0d, rl = 1.0d;
     private int desviationl = 100, desviationr = 100;
     private JoyStick ljoyStick, rjoyStick;
-    private double angle;
     private double r = 0, l = 0;
 
     private final ServiceConnection mServiceConnection = new ServiceConnection() {
@@ -185,8 +184,6 @@ public class DeviceControlActivity extends Activity {
                 double zxasd = Math.abs(v1);
                 l = (Math.pow((zxasd - 48) * 0.1, 3) + 111) * Math.signum(v);
 
-                angle = v;
-
                 sendMove();
 //                rtxt.setText(String.valueOf(l));
             }
@@ -260,8 +257,6 @@ public class DeviceControlActivity extends Activity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.gatt_services, menu);
-        menu.findItem(R.id.menu_jaiba).setVisible(true).setCheckable(true);
-        menu.findItem(R.id.menu_joystick).setVisible(true).setCheckable(true);
 
         if (mConnected) {
             menu.findItem(R.id.menu_connect).setVisible(false);
@@ -284,16 +279,6 @@ public class DeviceControlActivity extends Activity {
                 return true;
             case android.R.id.home:
                 onBackPressed();
-                return true;
-            case R.id.menu_jaiba:
-                mType = "Jaiba";
-                INNER_MAX_TIME = 4000;
-                Inner_text.setText(""+(INNER_MAX_TIME/1000)+"seconds");
-                return true;
-            case R.id.menu_joystick:
-                mType = "Joystick";
-                INNER_MAX_TIME = 6000;
-                Inner_text.setText(""+(INNER_MAX_TIME/1000)+"seconds");
                 return true;
         }
 
@@ -369,7 +354,6 @@ public class DeviceControlActivity extends Activity {
 
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
-        if (mType.equals("Joystick")){
             if ((keyCode == KeyEvent.KEYCODE_VOLUME_UP)) {
                 event.startTracking();
                 actionString.setText(R.string.shooting);
@@ -383,26 +367,12 @@ public class DeviceControlActivity extends Activity {
                 sendMove();
                 return true;
             }
-        } else if(mType.equals("Jaiba")){
-            if ((keyCode == KeyEvent.KEYCODE_VOLUME_UP)) {
-                setNormal();
-                shooted = true;
-                return true;
-            } else if ((keyCode == KeyEvent.KEYCODE_VOLUME_DOWN)) {
-                shooted = false;
-                fire = "0";
-                retry = true;
-                maxHolder();
-                return true;
-            }
-        }
-
         return super.onKeyDown(keyCode, event);
     }
 
     @Override
     public boolean onKeyUp(int keyCode, KeyEvent event) {
-        if (mType.equals("Joystick")) {
+
             if ((keyCode == KeyEvent.KEYCODE_VOLUME_UP)) {
                 setNormal();
                 shooted = true;
@@ -414,9 +384,6 @@ public class DeviceControlActivity extends Activity {
                 maxHolder();
                 return true;
             }
-        } else if(mType.equals("Jaiba")){
-
-        }
         return super.onKeyUp(keyCode, event);
     }
 
@@ -465,10 +432,8 @@ public class DeviceControlActivity extends Activity {
 
         int ll = (int) (l * 2.55 * ((double) desviationl / 100));
         int rr = (int) (r * 2.55 * ((double) desviationr / 100));
-        
-        angle = Math.toDegrees(angle);
 
-        superString = rr + ";" + angle + ";" + fire + "\n";
+        superString = rr + ";" + ll + ";" + fire + "\n";
         Log.d("BtConnet", superString);
     }
 

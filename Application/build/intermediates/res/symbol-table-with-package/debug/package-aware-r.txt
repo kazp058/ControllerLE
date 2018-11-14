@@ -737,8 +737,6 @@ id media_actions
 id menu_connect
 id menu_control_l
 id menu_disconnect
-id menu_jaiba
-id menu_joystick
 id menu_refresh
 id menu_scan
 id menu_stop

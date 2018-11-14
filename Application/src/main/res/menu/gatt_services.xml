@@ -12,16 +12,5 @@
           android:title="@string/menu_disconnect"
           android:orderInCategory="101"
           android:showAsAction="ifRoom|withText"/>
-    <item
-        android:id="@+id/menu_jaiba"
-        android:title="@string/menu_jaiba"
-        android:checkable="true"
-        android:orderInCategory="1"
-        android:showAsAction="ifRoom|withText"/>
-    <item android:id="@+id/menu_joystick"
-        android:title="@string/menu_joystick"
-        android:checkable="false"
-        android:orderInCategory="100"
-        android:showAsAction="ifRoom|withText"/>
 
 </menu>
