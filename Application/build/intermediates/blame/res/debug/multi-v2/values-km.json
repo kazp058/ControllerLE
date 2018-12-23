@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\kazp_\\Desktop\\ControllerLE\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-km\\values-km.xml",
+            "outputFile": "C:\\Users\\Kevin\\Desktop\\ControllerLE\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-km\\values-km.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\26817964ef54c5217cb12754e2976ec1\\res\\values-km\\values-km.xml",
+                    "source": "C:\\Users\\Kevin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\bccc83043af2a2fa780640059e7375bf\\res\\values-km\\values-km.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\kazp_\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\146b5025c50e3766b0cb24a80d9e4679\\res\\values-km\\values-km.xml",
+                    "source": "C:\\Users\\Kevin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\538e35987e77d86ab8a2c5cda0552af2\\res\\values-km\\values-km.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

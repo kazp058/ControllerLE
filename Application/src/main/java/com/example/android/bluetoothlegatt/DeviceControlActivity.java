@@ -160,6 +160,8 @@ public class DeviceControlActivity extends Activity {
         Intent gattServiceIntent = new Intent(this, BluetoothLeService.class);
         bindService(gattServiceIntent, mServiceConnection, BIND_AUTO_CREATE);
 
+        //FEEL FREE TO DELETE
+
         AudioManager volumeConfig = (AudioManager) getSystemService(AUDIO_SERVICE);
         volumeConfig.setStreamVolume(AudioManager.STREAM_MUSIC, 6, 0);
 
@@ -229,6 +231,8 @@ public class DeviceControlActivity extends Activity {
 
 
         final int delay = 25;
+
+        //UNTIL HERE
     }
 
     @Override
@@ -253,6 +257,8 @@ public class DeviceControlActivity extends Activity {
         unbindService(mServiceConnection);
         mBluetoothLeService = null;
     }
+
+    // FEEL FREE TO MODIFY
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -284,6 +290,8 @@ public class DeviceControlActivity extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    //UNTIL HERE
 
     private void displayGattServices(List<BluetoothGattService> gattServices) {
         if (gattServices == null) return;
@@ -351,6 +359,8 @@ public class DeviceControlActivity extends Activity {
         intentFilter.addAction(BluetoothLeService.ACTION_DATA_AVAILABLE);
         return intentFilter;
     }
+
+    //FEEL FREE TO DELETEE
 
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
@@ -428,6 +438,10 @@ public class DeviceControlActivity extends Activity {
         }, 1000);
     }
 
+    //UNTIL HERE
+
+    //Feel Free to MODIFY
+
     private void sendMove() {
 
         int ll = (int) (l * 2.55 * ((double) desviationl / 100));
@@ -457,4 +471,7 @@ public class DeviceControlActivity extends Activity {
         },1000);
 
     }
+
+    //UNITL HEREEE
+
 }
